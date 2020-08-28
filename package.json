@@ -1,0 +1,23 @@
+{
+  "name": "whatsapp-bot",
+  "description": "Whatsapp Bot Easy",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": "12.x"
+  },
+  "author": "Hanif",
+  "license": "Apache License 2.0",
+  "dependencies": {
+    "whatsapp-web.js": "^1.8.0",
+    "puppeteer": "^5.2.1",
+    "fs": "^0.0.2",
+    "enmap": "^5.7.1",
+    "better-sqlite3": "^7.1.0",
+    "@discordjs/collection": "^0.1.5",
+    "path": "^0.12.7",
+    "superagent": "^6.0.0"
+  }
+}
