@@ -13,3 +13,4 @@ const run = new WA({
   session: sessionCfg
 });
 
+run.build();
