@@ -1,4 +1,4 @@
-const PREFIX = require('../config.json').PREFIX;
+const { PREFIX } = require('../config.json');
 
 module.exports = async (bot, message) => {
   if (message.getChat().isGroup) {
