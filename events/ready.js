@@ -1,9 +1,11 @@
 module.exports = async (bot) => {
   console.info('Ready for playing.');
-  async function changing() {
+  const chats = await bot.getChats();
+  const contacts = await bot.getContacts();
+  function changing() {
     const status = [
-      `${await bot.getChats().length} chats.`,
-      `${await bot.getContacts().length} contacts.`
+      `${chats.length} chats.`,
+      `${contacts.length} contacts.`
     ];
     
     bot.setStatus(status[Math.floor(Math.random() * status.length)]);

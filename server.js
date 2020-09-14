@@ -7,8 +7,7 @@ if (fs.existsSync(SESSION_FILE_PATH)) {
 }
 const run = new WA({
   puppeteer: {
-    headless: false,
-    args: ['--no-sandbox', '-disable-setuid-sandbox']
+    headless: false
   },
   session: sessionCfg
 });

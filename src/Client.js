@@ -14,5 +14,7 @@ module.exports = class WhatsappBot extends Client {
     require('./module')(this);
     require('./events')(this);
     this.initialize();
+
+    
   }
 };

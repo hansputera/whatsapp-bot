@@ -11,13 +11,14 @@
   "author": "Hanif",
   "license": "Apache License 2.0",
   "dependencies": {
-    "whatsapp-web.js": "^1.8.0",
-    "puppeteer": "^5.2.1",
-    "fs": "^0.0.2",
-    "enmap": "^5.7.1",
-    "better-sqlite3": "^7.1.0",
     "@discordjs/collection": "^0.1.5",
+    "better-sqlite3": "^7.1.0",
+    "enmap": "^5.7.1",
+    "fs": "^0.0.2",
     "path": "^0.12.7",
-    "superagent": "^6.0.0"
+    "puppeteer": "^5.2.1",
+    "qrcode-terminal": "^0.12.0",
+    "superagent": "^6.0.0",
+    "whatsapp-web.js": "^1.8.0"
   }
 }
