@@ -13,3 +13,7 @@ Don't forget give star to this repo :-)
 - **Make sure, you've read the enmap installation documentation.**
 
 **NOTE: READ WHATSAPP TERMS BEFORE USE!**
+
+# FAQ
+
+Read on **FAQ.MD**
