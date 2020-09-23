@@ -13,7 +13,7 @@
   "dependencies": {
     "@discordjs/collection": "^0.1.5",
     "better-sqlite3": "^7.1.1",
-    "enmap": "^5.8.1",
+    "enmap": "^5.8.0",
     "fs": "^0.0.2",
     "path": "^0.12.7",
     "puppeteer": "^5.3.1",
