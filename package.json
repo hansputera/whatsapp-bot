@@ -12,7 +12,7 @@
   "license": "Apache License 2.0",
   "dependencies": {
     "@discordjs/collection": "^0.1.5",
-    "better-sqlite3": "^7.1.2",
+    "better-sqlite3": "^7.2.0",
     "enmap": "^5.8.1",
     "fs": "^0.0.2",
     "path": "^0.12.7",
